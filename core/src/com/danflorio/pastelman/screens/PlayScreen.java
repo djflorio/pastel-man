@@ -38,6 +38,8 @@ public class PlayScreen extends ScreenAdapter {
     @Override
     public void dispose() {
         Assets.instance.dispose();
+        batch.dispose();
+        debug.dispose();
     }
 
     @Override
